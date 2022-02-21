@@ -1,0 +1,80 @@
+body {
+    background-image: url("./Coronavirus-1.jpg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+}
+
+.container ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.container ul li a {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+.container ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.header {
+    padding: 20px;
+    /* height: 100vh; */
+    background: url("./Coronavirus-1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFF;
+    text-shadow: black;
+}
+
+.header .content h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+.timeline ul{
+    background: linear-gradient(blue,lightblue);
+    width: 6px;
+    margin:auto;
+}
+
+.timeline ul li{
+    width: 300px;
+    background: mintcream;
+    padding: 5px;
+    list-style: none;
+    visibility: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timeline ul li:nth-child(odd){
+    position: relative;
+    left: 30px;
+}
+.timeline ul li:nth-child(even){
+    position: relative;
+    left: -400px;
+}
+
+.timeline ul li.view{
+    visibility: visible;
+}

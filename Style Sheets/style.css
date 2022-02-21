@@ -1,0 +1,106 @@
+body {
+    background-image: url("./coronavirus-2.jpeg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.header {
+    padding: 20px;
+    height: 100vh;
+    background: url("./Coronavirus-1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFF;
+    text-shadow: black;
+}
+
+.header .content h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.flex1{
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #16222a, #4e4376);
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex1 h1{
+    font-size: 325%;
+    text-align: center;
+}
+.flex1 p{
+    font-weight: 400%;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.flex2{
+    display: flex;
+    color: white;
+    padding: 100px 150px 100px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex2 h1{
+    font-size: 325%;
+    text-align: center;
+}
+.flex2 p{
+    font-weight: 400%;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.flex{
+    display: flex;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: center;    
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-vertical{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+}

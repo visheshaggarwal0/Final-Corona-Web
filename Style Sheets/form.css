@@ -1,0 +1,156 @@
+body {
+    background-image: url("https://gumlet.assettype.com/barandbench%2F2021-04%2F9486a224-cadd-4959-84db-f1d7c9797f05%2FSupreme_Court_and_Covid_vaccine__3_.jpg?w=1200&auto=format%2Ccompress&ogImage=true");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+ul li {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li a {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 01em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-shadow: black 0.5px 0.5px 1px;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+.header {
+    padding: 10px;
+    background-size: cover;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFF;
+    text-shadow: black 1px 1px 3px;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .content h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+#head{
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+    position: relative;
+    left:-5px;
+    top: 0px;
+    width: 98%;
+    margin-top: 0px;
+    padding: 10px 0px 10px 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.form {
+    width: 80%;
+    padding-top: 0px;
+    margin: auto;
+    background: rgba(0, 255, 255, 0.596);
+    background-blend-mode: lighten;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    color: darkblue;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.travel input,
+.symptoms input{
+        width: 20px;
+        height: 20px;
+}
+
+#name,
+#dob,
+#email,
+#mobile,
+#state {
+    position: relative;
+    top: -57px;
+    right: -270px;
+    padding: 5px 0px;
+    padding-left: 5px;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.travel,
+.symptoms {
+    text-align: left;
+    padding-left: 50px;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.submit,
+.reset {
+    /* margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px; */    
+    background:#1717ff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border: 5px solid #4d4dfdc2;
+    border-radius: 12px;
+    padding: 10px 15px;
+    color: darkblue;
+    cursor: pointer;
+    transition: 0.25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub-res{
+    padding-left: 10px;
+    display: flex;
+    flex: initial;
+}
+
+#result{
+    color: darkblue;
+    font-size: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: -20px;
+}
