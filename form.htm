@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Corona Website</title>
+    <link rel="stylesheet" href="./Style Sheets/form.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./timeline.html">TIMELINE</a></li>
+                    <li><a href="./form.htm">CORONA TESTING </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>The COVID-19 Testing</h1>
+        </div>
+    </div>
+    <div class="form">
+        <form id="testForm">
+            <div>
+                <h1 id="head">Registeration Form</h1>
+            </div>
+
+            <h1 class="heading">Name:</h1>
+            <input type="text" id="name" placeholder="Enter your Name.">
+
+            <h1 class="heading">Date of Birth:</h1>
+            <input type="date" id="dob">
+
+            <h1 class="heading">Email ID:</h1>
+            <input type="email" id="email" placeholder="Enter your Email ID.">
+
+            <h1 class="heading">Mobile No:</h1>
+            <input type="number" id="mobile" placeholder="Enter your Mobile No.">
+
+            <h1 class="heading">State:</h1>
+            <select name="state" id="state">
+                <option value="" selected disabled>Choose</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Punjab">Punjab</option>
+            </select>
+
+            <h2 class="heading">Have you traveled to COVID affected countries?</h2>
+            <div class="travel">
+                <input type="radio" name="option" value="yes">Yes
+                <input type="radio" name="option" value="no" checked>No
+            </div><br>
+
+            <h2 class="heading">Do you have any symptoms?</h2>
+            <div class="symptoms">
+                <input type="checkbox" name="symptoms" value="cough"> Cough
+                <input type="checkbox" name="symptoms" value="chest-pain"> Chest Pain
+                <input type="checkbox" name="symptoms" value="fever"> Fever
+                <input type="checkbox" name="symptoms" value="breathing-problem"> Breathing Problem
+            </div>
+
+            <div class="sub-res">
+                <input class="submit" id="submit" type="submit" value="Submit">
+                <input class="reset" type="reset">
+            </div><br>
+
+            <h2 id="centers" class="heading"> Testing Centres around you: </h2>
+            <center><span id="result"></span></center>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+    <script src="./Scripts/form.js"></script>
+</body>
+
+</html>
